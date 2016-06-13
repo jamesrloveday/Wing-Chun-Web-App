@@ -9,8 +9,8 @@
 	</parent>
 	<artifactId>wingchunwebapp</artifactId>
 	<groupId>com.application.web</groupId>
-	<name>Spring Boot Simple Sample</name>
-	<description>Spring Boot Simple Sample</description>
+	<name>Wing-Chun-Web-App</name>
+	<description>Wing chun web application</description>
 	<version>1.0-SNAPSHOT</version>
 	<url>http://projects.spring.io/spring-boot/</url>
 	<organization>
