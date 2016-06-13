@@ -14,19 +14,17 @@
  * limitations under the License.
  */
 
-package com.application.web.simple.service;
+package com.application.web;
 
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
-@Component
-public class HelloWorldService {
+@SpringBootApplication
+@ComponentScan(basePackages = "com.application")
+public class WingChunWebApplication {
 
-	@Value("${name:World}")
-	private String name;
-
-	public String getHelloMessage() {
-		return "Hello " + this.name;
+	public static void main(String[] args) throws Exception {
+		SpringApplication.run(WingChunWebApplication.class, args);
 	}
-
 }
