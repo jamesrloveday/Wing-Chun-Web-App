@@ -1,5 +1,4 @@
 .loginBox {
-    border-style: solid;
-    border: 1px;
-    align: right;
+    border: 1px solid black;
+    align-content: right;
 }
