@@ -19,9 +19,14 @@
             <actionName>CUSTOM-run in debug</actionName>
             <displayName>run in debug</displayName>
             <goals>
+                <goal>clean</goal>
+                <goal>install</goal>
                 <goal>spring-boot:run</goal>
                 <goal>-Drun.jvmArguments="-Xdebug</goal>
                 <goal>-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005"</goal>
             </goals>
+            <properties>
+                <skipTests>true</skipTests>
+            </properties>
         </action>
     </actions>
