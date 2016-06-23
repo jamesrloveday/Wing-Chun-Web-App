@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.application.web.simple;
+package com.application.web;
 
 import com.application.web.WingChunWebApplication;
 import org.junit.Test;
@@ -29,7 +29,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = WingChunWebApplication.class)
-public class SpringTestSampleSimpleApplicationTests {
+public class WingChunWebApplicationContextApplicationTests {
 
 	@Test
 	public void testContextLoads() throws Exception {
